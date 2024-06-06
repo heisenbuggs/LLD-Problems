@@ -13,6 +13,10 @@
         <module>ParkingLot</module>
         <module>VendingMachine</module>
         <module>StackOverflow</module>
+        <module>LoggingFramework</module>
+        <module>CoffeeVendingMachine</module>
+        <module>TrafficSignalSystem</module>
+        <module>TaskManagementSystem</module>
         <!-- Medium -->
 
         <!-- Hard -->

@@ -3,7 +3,7 @@ public class VendingMachineMain {
         VendingMachine vendingMachine = VendingMachine.getInstance();
 
         // Add products to the inventory
-        Product coke = new Product("Coke", 20);
+        Product coke = new Product("Coke", 15);
         Product pepsi = new Product("Pepsi", 20);
         Product water = new Product("Water", 10);
 
@@ -15,6 +15,7 @@ public class VendingMachineMain {
         vendingMachine.selectProduct(coke);
 
         // Insert coins
+        vendingMachine.insertCoin(Coin.ONE);
         vendingMachine.insertCoin(Coin.ONE);
         vendingMachine.insertCoin(Coin.ONE);
         vendingMachine.insertCoin(Coin.ONE);

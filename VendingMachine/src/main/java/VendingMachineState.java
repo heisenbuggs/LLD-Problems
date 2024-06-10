@@ -1,3 +1,5 @@
+// Refer State Design Pattern for clear understanding
+
 public interface VendingMachineState {
     void selectProduct(Product product);
 

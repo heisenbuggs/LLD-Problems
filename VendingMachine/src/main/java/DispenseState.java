@@ -25,7 +25,7 @@ public class DispenseState implements VendingMachineState {
         vendingMachine.setState(vendingMachine.getReadyState());
 
         Product product = vendingMachine.getSelectedProduct();
-        vendingMachine.inventory.updateQuantity(product, vendingMachine.inventory.getQuantity(product) - 1);
+        vendingMachine.getInventory().updateQuantity(product, vendingMachine.getInventory().getQuantity(product) - 1);
         System.out.println("Product dispensed: " + product.getName());
         vendingMachine.setState(vendingMachine.getReturnChangeState()); // Change the state to ReturnChangeState
     }

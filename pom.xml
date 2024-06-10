@@ -17,6 +17,7 @@
         <module>CoffeeVendingMachine</module>
         <module>TrafficSignalSystem</module>
         <module>TaskManagementSystem</module>
+        <module>PubSubSystem</module>
         <!-- Medium -->
 
         <!-- Hard -->

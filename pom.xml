@@ -18,6 +18,7 @@
         <module>TrafficSignalSystem</module>
         <module>TaskManagementSystem</module>
         <module>PubSubSystem</module>
+        <module>TicTacToe</module>
         <!-- Medium -->
 
         <!-- Hard -->

@@ -19,6 +19,7 @@
         <module>TaskManagementSystem</module>
         <module>PubSubSystem</module>
         <module>TicTacToe</module>
+        <module>CarRentalSystem</module>
         <!-- Medium -->
 
         <!-- Hard -->

@@ -1,6 +1,6 @@
-package logAppender;
+package appenders;
 
-import logLevel.LogMessage;
+import log.LogMessage;
 
 import java.io.FileWriter;
 import java.io.IOException;

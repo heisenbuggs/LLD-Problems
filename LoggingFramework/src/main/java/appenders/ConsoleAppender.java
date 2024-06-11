@@ -1,7 +1,7 @@
-package logAppender;
+package appenders;
 
 
-import logLevel.LogMessage;
+import log.LogMessage;
 
 public class ConsoleAppender implements LogAppender {
     @Override

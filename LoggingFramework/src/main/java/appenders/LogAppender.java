@@ -1,6 +1,6 @@
-package logAppender;
+package appenders;
 
-import logLevel.LogMessage;
+import log.LogMessage;
 
 public interface LogAppender {
     void append(LogMessage logMessage);

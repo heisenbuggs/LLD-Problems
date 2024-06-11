@@ -1,6 +1,6 @@
-import logAppender.ConsoleAppender;
-import logLevel.LogLevel;
-import logLevel.LogMessage;
+import appenders.ConsoleAppender;
+import log.LogLevel;
+import log.LogMessage;
 
 public class Logger {
     private static final Logger instance = new Logger();

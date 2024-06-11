@@ -1,4 +1,4 @@
-package logLevel;
+package log;
 
 public class LogMessage {
     private final LogLevel level;

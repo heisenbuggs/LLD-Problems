@@ -1,5 +1,5 @@
-import logAppender.LogAppender;
-import logLevel.LogLevel;
+import appenders.LogAppender;
+import log.LogLevel;
 
 public class LoggerConfig {
     private LogLevel logLevel;

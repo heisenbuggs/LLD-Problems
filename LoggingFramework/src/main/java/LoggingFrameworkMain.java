@@ -1,5 +1,5 @@
-import logAppender.FileAppender;
-import logLevel.LogLevel;
+import appenders.FileAppender;
+import log.LogLevel;
 
 public class LoggingFrameworkMain {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package logAppender;
+package appenders;
 
 
-import logLevel.LogMessage;
+import log.LogMessage;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

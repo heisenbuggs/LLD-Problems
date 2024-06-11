@@ -20,6 +20,8 @@ public class Logger {
     }
 
     public void log(LogLevel level, String message) {
+        // Check to append logs based on the config requirements
+        // Not print logs that are less important to config requirements
         if (level.ordinal() >= config.getLogLevel().ordinal()) {
             LogMessage logMessage = new LogMessage(level, message);
             config.getLogAppender().append(logMessage);

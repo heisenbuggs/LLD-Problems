@@ -1,4 +1,4 @@
-import vehicleType.Vehicle;
+import vehicle.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

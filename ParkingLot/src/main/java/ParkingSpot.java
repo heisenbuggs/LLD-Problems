@@ -1,5 +1,5 @@
-import vehicleType.Vehicle;
-import vehicleType.VehicleType;
+import vehicle.Vehicle;
+import vehicle.VehicleType;
 
 public class ParkingSpot {
     private final int spotNumber;

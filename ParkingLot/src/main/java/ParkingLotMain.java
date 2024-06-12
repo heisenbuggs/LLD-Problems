@@ -1,7 +1,7 @@
-import vehicleType.Car;
-import vehicleType.Motorcycle;
-import vehicleType.Truck;
-import vehicleType.Vehicle;
+import vehicle.Car;
+import vehicle.Motorcycle;
+import vehicle.Truck;
+import vehicle.Vehicle;
 
 public class ParkingLotMain {
     public static void main(String[] args) {

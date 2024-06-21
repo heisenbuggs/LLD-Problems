@@ -17,6 +17,7 @@
         <module>CoffeeVendingMachine</module>
         <module>TrafficSignalSystem</module>
         <module>TaskManagementSystem</module>
+        <!-- Medium -->
         <module>PubSubSystem</module>
         <module>TicTacToe</module>
         <module>CarRentalSystem</module>
@@ -25,8 +26,7 @@
         <module>LinkedIn</module>
         <module>SocialNetworkingService</module>
         <module>ElevatorSystem</module>
-        <!-- Medium -->
-
+        <module>LibraryManagementSystem</module>
         <!-- Hard -->
     </modules>
 

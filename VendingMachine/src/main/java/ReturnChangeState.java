@@ -30,10 +30,10 @@ public class ReturnChangeState implements VendingMachineState {
         double change = vendingMachine.getTotalPayment() - vendingMachine.getSelectedProduct().getPrice();
         if (change > 0) {
             System.out.println("Change returned: $" + change);
-            vendingMachine.resetPayment();
         } else {
             System.out.println("No change to return.");
         }
+        vendingMachine.resetPayment();
         vendingMachine.resetSelectedProduct();
         vendingMachine.setState(vendingMachine.getIdleState());
     }

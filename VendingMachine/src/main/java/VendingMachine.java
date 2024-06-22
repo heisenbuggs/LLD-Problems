@@ -72,6 +72,14 @@ public class VendingMachine {
         return selectedProduct;
     }
 
+    public Inventory getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(Inventory inventory) {
+        this.inventory = inventory;
+    }
+
     void setSelectedProduct(Product product) {
         selectedProduct = product;
     }
@@ -94,13 +102,5 @@ public class VendingMachine {
 
     void resetPayment() {
         totalPayment = 0.0;
-    }
-
-    public Inventory getInventory() {
-        return inventory;
-    }
-
-    public void setInventory(Inventory inventory) {
-        this.inventory = inventory;
     }
 }

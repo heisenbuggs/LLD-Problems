@@ -27,6 +27,7 @@
         <module>SocialNetworkingService</module>
         <module>ElevatorSystem</module>
         <module>LibraryManagementSystem</module>
+        <module>RestaurantManagementSystem</module>
         <!-- Hard -->
     </modules>
 

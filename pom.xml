@@ -28,6 +28,7 @@
         <module>ElevatorSystem</module>
         <module>LibraryManagementSystem</module>
         <module>RestaurantManagementSystem</module>
+        <module>AirlineManagementSystem</module>
         <!-- Hard -->
     </modules>
 

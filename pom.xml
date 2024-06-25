@@ -29,6 +29,7 @@
         <module>LibraryManagementSystem</module>
         <module>RestaurantManagementSystem</module>
         <module>AirlineManagementSystem</module>
+        <module>DigitalWallet</module>
         <!-- Hard -->
     </modules>
 

@@ -30,6 +30,7 @@
         <module>RestaurantManagementSystem</module>
         <module>AirlineManagementSystem</module>
         <module>DigitalWallet</module>
+        <module>OnlineAuctionSystem</module>
         <!-- Hard -->
     </modules>
 
